@@ -1,0 +1,19 @@
+<h2>Dokończ zamówienie</h2>
+<p>Podaj wymagane dane, a zamówienie zostanie natychmiast wysłane!</p>
+<form name="shippingForm" novalidate>
+    <div class="well">
+        <h3>Odbiorca</h3>
+        <div class="form-group">
+            <label>Imię i nazwisko</label>
+            <input class="form-control" ng-model="data.shipping.name" required/>
+        </div>
+        <h3>Adres</h3>
+        <div class="form-group">
+            <label>Nazwa ulicy</label>
+            <input class="form-control" ng-model="data.shipping.street" required/>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary">Dokończ zamówienie</button>
+        </div>
+    </div>
+</form>
